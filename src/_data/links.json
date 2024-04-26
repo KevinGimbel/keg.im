@@ -1,0 +1,30 @@
+{
+    "socials": [
+        {
+            "title": "Follow me on Mastodon",
+            "name": "🐘 Mastodon",
+            "link": "https://fosstodon.org/@KevinGimbel"
+        },
+        {
+            "title": "Follow Kevin Gimbel on LinkedIn",
+            "name": "🧑‍💼 LinkedIn",
+            "link": "https://linkedin.com/in/kevingimbel"
+        },
+        {
+            "title": "Follow Kevin Gimbel on Bluesky",
+            "name": "🦋 Bluesky",
+            "link": "https://bsky.app/profile/kevin.gimbel.dev"
+        }
+    ],
+    "websites": [
+        {
+            "title": "Read my tech blog",
+            "name": "🧑‍💻 Tech Blog",
+            "link": "https://kevin.gimbel.dev/blog"
+        }, {
+            "title": "Check out my photo blog",
+            "name": "📸 Photography",
+            "link": "https://kevingimbel.de/photography"
+        }
+    ]
+}

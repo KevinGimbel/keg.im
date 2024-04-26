@@ -1,0 +1,15 @@
+{
+  "name": "keg.im",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Little link collection page ✨",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve"
+  },
+  "author": "Kevin Gimbel",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0-alpha.9"
+  }
+}
