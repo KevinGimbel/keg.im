@@ -128,8 +128,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
 }
-
-.link__name {}
+/* .link__name {} */
 
 .link__url-txt {
     font-size: .6rem;
@@ -168,8 +167,18 @@ footer a:hover {
         flex-direction: column;
     }
 
+    .link__url-txt {
+        display: none;
+    }
+
     .page {
         margin: 2rem;
         width: auto;
+    }
+}
+
+@media all and (max-width: 30rem) {
+    body {
+        font-size: 14px;
     }
 }
