@@ -149,7 +149,7 @@ hr {
 }
 
 footer {
-    font-size: .65em;
+    font-size: .85em;
 }
 
 footer a {
@@ -180,5 +180,13 @@ footer a:hover {
 @media all and (max-width: 30rem) {
     body {
         font-size: 14px;
+    }
+    
+    h1 {
+        font-size: 1.3rem;
+    }
+    .site-header p {
+        font-size: .85rem;
+        margin-top: .5rem;
     }
 }
