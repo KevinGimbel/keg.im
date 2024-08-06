@@ -90,6 +90,7 @@ body {
     font-family: var(--font-sans);
     font-size: var(--font-size-0);
     line-height: 1.65;
+    padding: var(--space-xs-s);
 }
 
 a,
@@ -176,7 +177,7 @@ img {
 
 .page {
     max-width: 50rem;
-    margin: 2rem auto;
+    margin: 0 auto;
     padding: 2rem;
     background: var(--color-white);
     box-shadow: -3px 3px 0 #ccc;
