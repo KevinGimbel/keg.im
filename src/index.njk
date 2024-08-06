@@ -14,24 +14,26 @@
             <div class="avatar-wrapper">
                 <img src="assets/img/kg-bw.jpeg" class="avatar" />
             </div>
-            <h1>Kevin Gimbel</h1>
-            <p>is a DevOps Engineer at <a href="https://aoe.com/" title="Visit aoe.com">AOE GmbH</a>
+            <div class="title-wrapper">
+                <h1>Kevin Gimbel</h1>
+                <p>is a DevOps Engineer at <a href="https://aoe.com/" title="Visit aoe.com">AOE GmbH</a>
             and Hobby Photographer.</p>
+            </div>
         </header>
         <h2>Social</h2>
         <ul class="link-list">
             {%- for site in links.socials -%}
-            <li><a href="{{ site.link }}" target="_blank" title="{{ site.title }}" class="link-list__link"><span class="link__name">{{ site.name }}</span> <small class="link__url-txt">{{ site.link }}</small> </a></li>
+            <li><a href="{{ site.link }}" target="_blank" title="{{ site.title }}" class="link-list__link bg-accent-1"><span class="link__name">{{ site.name }}</span> <small class="link__url-txt">{{ site.link }}</small> </a></li>
             {%- endfor -%}
         </ul>
         <h2>Blogs</h2>
         <ul class="link-list">
             {%- for site in links.websites -%}
-            <li><a href="{{ site.link }}" target="_blank" title="{{ site.title }}" class="link-list__link"><span class="link__name">{{ site.name }}</span> <small class="link__url-txt">{{ site.link }}</small> </a></li>
+            <li><a href="{{ site.link }}" target="_blank" title="{{ site.title }}" class="link-list__link bg-accent-3"><span class="link__name">{{ site.name }}</span> <small class="link__url-txt">{{ site.link }}</small> </a></li>
             {%- endfor -%}
         </ul>
         <hr>
-        <footer>
+        <footer class="site-footer">
             <p>Made with 💖 and <a href="https://11ty.dev/" title="Eleventy">11ty</a>. <a href="https://github.com/KevinGimbel/keg.im" title="Source Code on GitHub.com">Source Code</a></p>
         </footer>
     </main>
