@@ -18,6 +18,9 @@
                 <h1>Kevin Gimbel</h1>
                 <p>is a DevOps Engineer at <a href="https://aoe.com/" title="Visit aoe.com to learn more about my employer">AOE GmbH</a>
             and <a href="https://kevingimbel.de/photography/" title="Check out my photography">hobby photographer</a>.</p>
+            {% if extras.note %}
+                <p><b>{{ extras.note }}</b></p>
+            {% endif %}
             </div>
         </header>
         <h2>Social</h2>
@@ -26,7 +29,7 @@
             <li><a href="{{ site.link }}" target="_blank" title="{{ site.title }}" class="link-list__link bg-accent-1"><span class="link__name">{{ site.name }}</span> <small class="link__url-txt">{{ site.link }}</small> </a></li>
             {%- endfor -%}
         </ul>
-        <h2>Blogs</h2>
+        <h2>Websites</h2>
         <ul class="link-list">
             {%- for site in links.websites -%}
             <li><a href="{{ site.link }}" target="_blank" title="{{ site.title }}" class="link-list__link bg-accent-3"><span class="link__name">{{ site.name }}</span> <small class="link__url-txt">{{ site.link }}</small> </a></li>
