@@ -165,8 +165,10 @@ p,
 ul {
     padding: var(--space-xs-s) 0;
 }
-
 ul {
+    list-style: square;
+}
+.link-list {
     list-style: none;
 }
 
@@ -262,4 +264,9 @@ img {
     .link-list li a {
         flex-wrap: wrap;
     }
+}
+
+.single-talk-notes li {
+    list-style: disc;
+    list-style: inside;
 }
