@@ -1,30 +1,6 @@
 {% extends "base.njk" %}
 
 {% block content %}
-
-        <header class="site-header">
-            <div class="avatar-wrapper">
-                <img src="assets/img/kg-bw.jpeg" class="avatar" />
-            </div>
-            <div class="title-wrapper">
-                <h1>Kevin Gimbel</h1>
-                <p>is a DevOps Engineer at <a href="https://aoe.com/" title="Visit aoe.com to learn more about my employer">AOE GmbH</a>
-            and <a href="https://kevingimbel.de/photography/" title="Check out my photography">hobby photographer</a>.</p>
-            {% if extras.note %}
-                <p>{{ extras.note | safe }}</p>
-            {% endif %}
-            </div>
-        </header>
-        <h2>Social</h2>
-        <ul class="link-list">
-            {%- for site in links.socials -%}
-            <li><a href="{{ site.link }}" target="_blank" title="{{ site.title }}" class="link-list__link bg-accent-1"><span class="link__name">{{ site.name }}</span> <small class="link__url-txt">{{ site.link }}</small></a></li>
-            {%- endfor -%}
-        </ul>
-        <h2>Websites</h2>
-        <ul class="link-list">
-            {%- for site in links.websites -%}
-            <li><a href="{{ site.link }}" target="_blank" title="{{ site.title }}" class="link-list__link bg-accent-3"><span class="link__name">{{ site.name }}</span> <small class="link__url-txt">{{ site.link }}</small> </a></li>
-            {%- endfor -%}
-        </ul>
+<p class="font-size-1"><b>Kevin Gimbel</b> is a <span class="bg-accent-3">Senior DevOps Engineer</span> working at AOE GmbH in Wiesbaden, Germany.</p>
+<p>You can find more info about him on <a href="https://kevingimbel.de/">kevingimbel.de</a> or follow him on <a href="https://fosstodon.org/@KevinGimbel">Mastodon</a>.</p>
 {% endblock %}
